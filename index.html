@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match: Word Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="BlackHole.jpg">
+</head>
+<body>
+    <h1>Memory Match: Word Edition</h1>
+    <pre>Welcome to "Memory Match: Word Edition"
+    This game doesn't have a judgment system, so don't cheat :)
+        If you get anything wrong, reset the game.
+    </pre>
+    
+    <table>
+        <tr>
+            <th>
+                <button class="game_button" id="b1" onclick="b1S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b2" onclick="b2S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b3" onclick="b3S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b4" onclick="b4S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b5" onclick="b5S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b6" onclick="b6S()"></button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button class="game_button" id="b7" onclick="b7S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b8" onclick="b8S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b9" onclick="b9S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b10" onclick="b10S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b11" onclick="b11S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b12" onclick="b12S()"></button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button class="game_button" id="b13" onclick="b13S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b14" onclick="b14S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b15" onclick="b15S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b16" onclick="b16S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b17" onclick="b17S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b18" onclick="b18S()"></button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button class="game_button" id="b19" onclick="b19S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b20" onclick="b20S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b21" onclick="b21S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b22" onclick="b22S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b23" onclick="b23S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b24" onclick="b24S()"></button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button class="game_button" id="b25" onclick="b25S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b26" onclick="b26S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b27" onclick="b27S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b28" onclick="b28S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b29" onclick="b29S()"></button>
+            </th>
+            <th>
+                <button class="game_button" id="b30" onclick="b30S()"></button>
+            </th>
+        </tr>
+    </table>
+    
+    <br>
+    <table>
+        <th><button class="Settings" onclick="hideAll()">Hide All</button><th>
+        <th><button class="Settings" onclick="showAll()">Show All</button><th>
+    </table>
+    <pre>&copy; 2025 JehadCode All rights reserved.</pre>
+    <script>
+        function hideAll(){
+            location.reload();
+        }
+        function showAll() {
+    document.getElementById("b1").innerHTML = "Sun";
+    document.getElementById("b2").innerHTML = "King";
+    document.getElementById("b3").innerHTML = "Moon";
+    document.getElementById("b4").innerHTML = "Shadow";
+    document.getElementById("b5").innerHTML = "Tree";
+    document.getElementById("b6").innerHTML = "Night";
+    document.getElementById("b7").innerHTML = "Queen";
+    document.getElementById("b8").innerHTML = "Dream";
+    document.getElementById("b9").innerHTML = "River";
+    document.getElementById("b10").innerHTML = "Ocean";
+    document.getElementById("b11").innerHTML = "Light";
+    document.getElementById("b12").innerHTML = "Knight";
+    document.getElementById("b13").innerHTML = "King";
+    document.getElementById("b14").innerHTML = "Moon";
+    document.getElementById("b15").innerHTML = "Night";
+    document.getElementById("b16").innerHTML = "Day";
+    document.getElementById("b17").innerHTML = "Shadow";
+    document.getElementById("b18").innerHTML = "Abalone";
+    document.getElementById("b19").innerHTML = "Tree";
+    document.getElementById("b20").innerHTML = "Queen";
+    document.getElementById("b21").innerHTML = "Ocean";
+    document.getElementById("b22").innerHTML = "Dream";
+    document.getElementById("b23").innerHTML = "River";
+    document.getElementById("b24").innerHTML = "Light";
+    document.getElementById("b25").innerHTML = "Knight";
+    document.getElementById("b26").innerHTML = "Day";
+    document.getElementById("b27").innerHTML = "Abalone";
+    document.getElementById("b28").innerHTML = "Tree";
+    document.getElementById("b29").innerHTML = "Moon";
+    document.getElementById("b30").innerHTML = "Sun";
+}
+
+function b1S(){
+        document.getElementById("b1").innerHTML = "Sun";
+    }
+
+    function b2S(){
+        document.getElementById("b2").innerHTML = "King";
+    }
+
+    function b3S(){
+        document.getElementById("b3").innerHTML = "Moon";
+    }
+
+    function b4S(){
+        document.getElementById("b4").innerHTML = "Shadow";
+    }
+
+    function b5S(){
+        document.getElementById("b5").innerHTML = "Tree";
+    }
+
+    function b6S(){
+        document.getElementById("b6").innerHTML = "Night";
+    }
+
+    function b7S(){
+        document.getElementById("b7").innerHTML = "Queen";
+    }
+
+    function b8S(){
+        document.getElementById("b8").innerHTML = "Dream";
+    }
+
+    function b9S(){
+        document.getElementById("b9").innerHTML = "River";
+    }
+
+    function b10S(){
+        document.getElementById("b10").innerHTML = "Ocean";
+    }
+
+    function b11S(){
+        document.getElementById("b11").innerHTML = "Light";
+    }
+
+    function b12S(){
+        document.getElementById("b12").innerHTML = "Knight";
+    }
+
+    function b13S(){
+        document.getElementById("b13").innerHTML = "King";
+    }
+
+    function b14S(){
+        document.getElementById("b14").innerHTML = "Moon";
+    }
+
+    function b15S(){
+        document.getElementById("b15").innerHTML = "Night";
+    }
+
+    function b16S(){
+        document.getElementById("b16").innerHTML = "Day";
+    }
+
+    function b17S(){
+        document.getElementById("b17").innerHTML = "Shadow";
+    }
+
+    function b18S(){
+        document.getElementById("b18").innerHTML = "Abalone";
+    }
+
+    function b19S(){
+        document.getElementById("b19").innerHTML = "Tree";
+    }
+
+    function b20S(){
+        document.getElementById("b20").innerHTML = "Queen";
+    }
+
+    function b21S(){
+        document.getElementById("b21").innerHTML = "Ocean";
+    }
+
+    function b22S(){
+        document.getElementById("b22").innerHTML = "Dream";
+    }
+
+    function b23S(){
+        document.getElementById("b23").innerHTML = "River";
+    }
+
+    function b24S(){
+        document.getElementById("b24").innerHTML = "Light";
+    }
+
+    function b25S(){
+        document.getElementById("b25").innerHTML = "Knight";
+    }
+
+    function b26S(){
+        document.getElementById("b26").innerHTML = "Day";
+    }
+
+    function b27S(){
+        document.getElementById("b27").innerHTML = "Abalone";
+    }
+
+    function b28S(){
+        document.getElementById("b28").innerHTML = "Tree";
+    }
+
+    function b29S(){
+        document.getElementById("b29").innerHTML = "Moon";
+    }
+
+    function b30S(){
+        document.getElementById("b30").innerHTML = "Sun";
+    }
+    </script>
+</body>
+</html>
