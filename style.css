@@ -46,3 +46,13 @@ th{
 body{
     background-color: #1E1E1E;
 }
+
+.game_button:hover{
+    background-color: #396c6c;
+    color:#175384;
+}
+
+.Settings:hover{
+    background-color: #396c6c;
+    color:#175384;
+}
